@@ -7,7 +7,7 @@ const noBtn = document.querySelector(".no-btn");
 
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Yun ohhh, chat kana para mag simula na yung love story natin! 😘 John chrisian Garete on fb";
+  question.innerHTML = "Yun ohhh, chat kana para mag simula na yung love story natin! 😘 John chrisian  on fb";
   gif.src =
     "https://media1.giphy.com/media/iCVzZwwE6QNAV2tEE0/giphy.gif";
 
