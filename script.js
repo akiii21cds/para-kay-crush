@@ -4,11 +4,17 @@ const gif = document.querySelector(".gif");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
+
+
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "Yun ohhh, chat kana para mag simula na yung love story natin! 😘 John chrisian Garete on fb";
   gif.src =
     "https://media1.giphy.com/media/iCVzZwwE6QNAV2tEE0/giphy.gif";
+
 });
+
+
+
 
 noBtn.addEventListener("mouseover", () => {
   const noBtnRect = noBtn.getBoundingClientRect();
